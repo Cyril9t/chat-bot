@@ -4,107 +4,7 @@ import { Banner } from "./welcome.jsx";
 import { useState } from "react";
 
 function App() {
-  const [chatMessages, setChatMessages] = useState([
-    {
-      message: "hi",
-      sender: "user",
-      id: crypto.randomUUID()
-    }, {
-      message: "response",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }, {
-
-      message: "what can you do",
-      sender: "user",
-      id: crypto.randomUUID()
-
-    }, {
-      message: "say your mind i can help",
-      sender: "robot",
-      id: crypto.randomUUID()
-    }
-  ]);
+  const [chatMessages, setChatMessages] = useState([]);
 
 
   return (
@@ -120,7 +20,7 @@ function App() {
 
     </>
 
-  );
+  )
 }
 
 export default App
